@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE FANTASY</title>
+    <style>
+        body {
+            font-family: Ariel, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+         
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        main {
+            padding: 4rem;
+        }
+        .cake-listing {
+            border: 1px solid #ddd;
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+        footer {
+            background-color: #4e1360;
+            color: #6eb2cf;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(150, 169, 218);">
+    <header>
+       
+        <h1 style="color:rgb(150, 52, 196)">CAKE FANTASY</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button>SEARCH</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <h2>WELCOME TO OUR CAKE FANTASY</h2>
+            
+        </section>
+        <!-- Cake Categories -->
+        <section id="cakes">
+            <h2>Our Cakes</h2>
+            <div class="cake-listing">
+                <img src="./1483762203698_chocolate-mousse-cake-5-star-bakery_600x.avif" alt="Cake Image">
+                <h4>Chocolate Delight</h4>
+                <p>$20</p>
+                <button class="minus-btn">-</button>
+                <input type="number"id="counter"value="0"/>
+                <button class="plus-btn">+</button>
+                <button>Add to Cart</button>
+            </div>
+            <div class="cake-listing">
+                <img src="./download.jpg"alt="cake image">
+                <h4>Vanilla Dream</h4>
+                <p>$18</p>
+                <button class="minus-btn">-</button>
+                <input type="number"id="counter"value="0"/>
+                <button class="plus-btn">+</button>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: info@cakeshop.com</p>
+        <p>Follow us on social media</p>
+    </footer>
+</body>
+</html>
